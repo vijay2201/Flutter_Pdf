@@ -148,6 +148,7 @@ class _CreatePdfState extends State<CreatePdfStatefulWidget> {
 
 //Set the grid style
     grid.style = PdfGridStyle(
+
         cellPadding: PdfPaddings(left: 5, right: 5, top: 2, bottom: 2),
         backgroundBrush: PdfBrushes.white,
         textBrush: PdfBrushes.black,
